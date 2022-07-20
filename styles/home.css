@@ -1,0 +1,129 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcelo {
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+    top: 78px;
+
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+.marcelo img {
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 28;
+}
+
+#greatest {
+
+    position: absolute;
+    width: 531px;
+    height: 240px;
+    margin-left: 125px;
+    margin-top: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+#pera {
+
+    width: 506px;
+    height: 78px;
+    margin-left: 125;
+    margin-top: 343px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.btn-one {
+    width: 187px;
+    height: 56px;
+    margin-left: 125;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-one:hover {
+    background-color: burlywood;
+}
+
+.navbar {
+    display: grid;
+
+    width: 312px;
+    height: 282px;
+    background-color: #161616;
+    margin-top: 826px;
+
+    margin-right: 70%;
+    margin-left: 16%;
+
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1px;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 30;
+    border-radius: 10px;
+
+}
+
+#nav-btn {
+    width: 252px;
+    height: 64px;
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20;
+    line-height: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#nav-btn:hover {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
